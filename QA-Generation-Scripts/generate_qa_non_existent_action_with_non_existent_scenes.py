@@ -24,7 +24,7 @@ def annotate(caption_content, output_dir):
     Generates question and answer pairs based on video captions using OpenAI GPT-3.
     """
     response = openai.ChatCompletion.create(
-        model="gpt-4",
+        model="GPT-4o-mini",
         messages=[
             {
                 "role": "system",
